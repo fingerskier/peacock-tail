@@ -1,0 +1,22 @@
+{
+  "name": "peacock-tail",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A log tail visualizer powered by Claude",
+  "bin": {
+    "peacock-tail": "./bin/peacock.js"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "keywords": ["log", "tail", "visualizer", "claude", "ai"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "ws": "^8.18.0"
+  }
+}
